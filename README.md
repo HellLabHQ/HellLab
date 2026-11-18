@@ -4,6 +4,8 @@
 
 <h1 align="center">HellLab</h1>
 
+<p align="center"><a href="https://t.me/HellLab">Telegram</a></p>
+
 We’re building HellLab MAX for developers who ship compiled software and want to make proprietary logic harder to copy or modify.
 
 The engine is in development. We’re starting with a specific question: how much harder is it to reconstruct the behavior of a protected function? Trial #003 sets out how we plan to test that.
