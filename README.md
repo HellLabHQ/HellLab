@@ -4,7 +4,7 @@
 
 <h1 align="center">HellLab</h1>
 
-<p align="center"><a href="https://t.me/HellLab">Telegram</a></p>
+<p align="center"><a href="https://t.me/HellLab">Telegram</a> · <a href="https://github.com/HellLabHQ/HellLab/issues/1">Roadmap</a></p>
 
 We’re building HellLab MAX for developers who ship compiled software and want to make proprietary logic harder to copy or modify.
 
