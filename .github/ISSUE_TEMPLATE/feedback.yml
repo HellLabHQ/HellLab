@@ -1,0 +1,21 @@
+name: Project feedback
+description: Ask about HellLab, suggest an evaluation, or volunteer to review Trial #003.
+body:
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Using HellLab in an application
+        - Trial #003
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What would you like to discuss?
+      description: A short description is enough. GitHub issues are public.
+    validations:
+      required: true

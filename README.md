@@ -1,15 +1,14 @@
-# HellLab
+<p align="center">
+  <img src="assets/helllab-logo.png" alt="HellLab logo" width="160">
+</p>
 
-**Experimental software protection and code virtualization.**
+<h1 align="center">HellLab</h1>
 
-HellLab is an early-stage project exploring ways to raise the cost of reverse engineering and unauthorized modification of compiled software. The project is focused on layered protection, including code virtualization, obfuscation and integrity checks.
+We’re building HellLab MAX for developers who ship compiled software and want to make proprietary logic harder to copy or modify.
 
-## Current status
+The engine is in development. We’re starting with a specific question: how much harder is it to reconstruct the behavior of a protected function? Trial #003 sets out how we plan to test that.
 
-HellLab MAX is under development. We are preparing a controlled reconstruction challenge, **Trial #003**, to evaluate selected protected functions. We will publish verifiable findings as testing progresses. No protection can guarantee that software is impossible to reverse engineer.
+- [Project overview](docs/overview.md) explains what we’re building and what we want to measure.
+- [Trial #003](docs/trial-003.md) describes the exercise and how we’ll judge a result.
 
-## Follow development
-
-This repository hosts public project information and technical updates. The protection engine's source code is not published here.
-
-We welcome constructive feedback from software developers and reverse engineers. Open an [issue](https://github.com/HellLabHQ/HellLab/issues) to discuss the project or propose a test.
+If you ship commercial software, we’d like to hear what you need to protect and what overhead you can live with. If you do reverse engineering and want to review the trial, [open an issue](https://github.com/HellLabHQ/HellLab/issues/new/choose).
